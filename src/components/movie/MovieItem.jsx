@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import MovieItemDetail from "./MovieItemDetail.style";
+import MovieItemDetail from "./MovieItemDetail";
 
 function MovieItem({ title, voteAverage, overview, poster }) {
   const [detail, setDetail] = useState(false);

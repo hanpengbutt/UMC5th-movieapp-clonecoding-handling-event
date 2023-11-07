@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import movies from "../../services/movieDummy";
-import MovieItem from "./MovieItem.style";
+import MovieItem from "./MovieItem";
 
 function MovieContainer() {
   return (
