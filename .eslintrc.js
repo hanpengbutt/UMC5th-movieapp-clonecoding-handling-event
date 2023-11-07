@@ -24,7 +24,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react"],
+  plugins: ["react", "prettier"],
   rules: {
     "react/react-in-jsx-scope": "off",
     "react/no-array-index-key": "off",
