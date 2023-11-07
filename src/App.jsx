@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import "./App.css";
 import Celebirity from "./components/celebirity/Celebirity";
 import Tv from "./components/tv/Tv";
+import NotFound from "./components/notFound/NotFound";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/movie" element={<MovieContainer />} />
           <Route path="/tv" element={<Tv />} />
           <Route path="/celebirity" element={<Celebirity />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
