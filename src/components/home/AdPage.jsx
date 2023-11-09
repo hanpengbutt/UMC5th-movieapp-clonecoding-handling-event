@@ -1,5 +1,5 @@
-import React from "react";
-import Ad from "./Ad";
+import React from 'react';
+import Ad from './Ad';
 
 class AdPage extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class AdPage extends React.Component {
 
   handleClick() {
     this.setState(({ isShowAd }) => ({
-      isShowAd: !isShowAd,
+      isShowAd: !isShowAd
     }));
   }
 
@@ -23,7 +23,7 @@ class AdPage extends React.Component {
       <div>
         <Ad showAd={isShowAd} />
         <button type='button' onClick={this.handleClick}>
-          {isShowAd ? "광고 안 보기" : "광고 보기"}
+          {isShowAd ? '광고 안 보기' : '광고 보기'}
         </button>
       </div>
     );

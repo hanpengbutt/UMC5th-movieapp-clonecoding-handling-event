@@ -9,15 +9,15 @@ import NotFound from './components/notFound/NotFound';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/movie" element={<MovieContainer />} />
-          <Route path="/tv" element={<Tv />} />
-          <Route path="/celebirity" element={<Celebirity />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/movie' element={<MovieContainer />} />
+          <Route path='/tv' element={<Tv />} />
+          <Route path='/celebirity' element={<Celebirity />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>

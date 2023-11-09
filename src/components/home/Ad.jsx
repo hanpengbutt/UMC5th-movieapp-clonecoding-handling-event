@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
-import { ReactComponent as AdImg } from "../../assets/ad.svg";
+import PropTypes from 'prop-types';
+import { ReactComponent as AdImg } from '../../assets/ad.svg';
 
 function Ad({ showAd }) {
   if (!showAd) {

@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 class LoginControl extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class LoginControl extends React.Component {
 
   handleClick() {
     this.setState(({ isLoggedIn }) => ({
-      isLoggedIn: !isLoggedIn,
+      isLoggedIn: !isLoggedIn
     }));
   }
 
@@ -22,10 +22,10 @@ class LoginControl extends React.Component {
     return (
       <LoginContainer>
         <LoginBtn type='button' onClick={this.handleClick}>
-          {isLoggedIn ? "로그아웃" : "로그인"}
+          {isLoggedIn ? '로그아웃' : '로그인'}
         </LoginBtn>
         <LoginGreet>
-          {isLoggedIn ? "환영합니다!" : "로그인 해주세요!"}
+          {isLoggedIn ? '환영합니다!' : '로그인 해주세요!'}
         </LoginGreet>
       </LoginContainer>
     );

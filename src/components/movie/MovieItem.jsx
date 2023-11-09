@@ -1,7 +1,7 @@
-import { useState } from "react";
-import styled from "styled-components";
-import PropTypes from "prop-types";
-import MovieItemDetail from "./MovieItemDetail";
+import { useState } from 'react';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import MovieItemDetail from './MovieItemDetail';
 
 function MovieItem({ title, voteAverage, overview, poster }) {
   const [detail, setDetail] = useState(false);
@@ -13,7 +13,7 @@ function MovieItem({ title, voteAverage, overview, poster }) {
     >
       <ItemPoster
         src={`https://image.tmdb.org/t/p/original/${poster}`}
-        alt="영화 포스터 사진"
+        alt='영화 포스터 사진'
       />
       <ItemInfo>
         <ItemTitle>{title}</ItemTitle>
