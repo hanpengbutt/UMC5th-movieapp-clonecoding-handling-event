@@ -5,21 +5,21 @@ import LoginControl from "./LoginControl";
 function Header() {
   return (
     <HeaderWrapper>
-      <Link to="/">
+      <Link to='/'>
         <img
           style={{ width: "154px", height: "20px" }}
-          src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
-          alt="로고"
+          src='https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg'
+          alt='로고'
         />
       </Link>
       <Navigator>
-        <Link to="/movie">
+        <Link to='/movie'>
           <li>영화</li>
         </Link>
-        <Link to="/tv">
+        <Link to='/tv'>
           <li>TV 프로그램</li>
         </Link>
-        <Link to="/celebirity">
+        <Link to='/celebirity'>
           <li>인물</li>
         </Link>
       </Navigator>

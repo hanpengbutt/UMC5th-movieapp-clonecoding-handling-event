@@ -1,4 +1,4 @@
-import AdPage from "./AdPage";
+import AdPage from './AdPage';
 
 function Home() {
   return (

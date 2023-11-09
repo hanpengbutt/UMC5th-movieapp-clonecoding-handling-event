@@ -10,7 +10,7 @@ function Ad({ showAd }) {
 }
 
 Ad.propTypes = {
-  showAd: PropTypes.bool.isRequired,
+  showAd: PropTypes.bool.isRequired
 };
 
 export default Ad;

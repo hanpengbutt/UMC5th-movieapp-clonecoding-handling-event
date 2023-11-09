@@ -1,7 +1,7 @@
 const movies = {
   dates: {
     maximum: "2023-09-17",
-    minimum: "2023-07-31",
+    minimum: "2023-07-31"
   },
   page: 1,
   results: [
@@ -20,7 +20,7 @@ const movies = {
       title: "메가로돈 2",
       video: false,
       vote_average: 7,
-      vote_count: 1790,
+      vote_count: 1790
     },
     {
       adult: false,
@@ -37,7 +37,7 @@ const movies = {
       title: "닌자터틀: 뮤턴트 대소동",
       video: false,
       vote_average: 7.3,
-      vote_count: 512,
+      vote_count: 512
     },
     {
       adult: false,
@@ -54,7 +54,7 @@ const movies = {
       title: "오펜하이머",
       video: false,
       vote_average: 8.3,
-      vote_count: 3566,
+      vote_count: 3566
     },
     {
       adult: false,
@@ -71,7 +71,7 @@ const movies = {
       title: "론 서바이버 : 아이 엠 리벤지",
       video: false,
       vote_average: 6.5,
-      vote_count: 11,
+      vote_count: 11
     },
     {
       adult: false,
@@ -88,7 +88,7 @@ const movies = {
       title: "베니스 유령 살인사건",
       video: false,
       vote_average: 6.8,
-      vote_count: 203,
+      vote_count: 203
     },
     {
       adult: false,
@@ -105,7 +105,7 @@ const movies = {
       title: "극장판 사사키와 미야노 - 졸업편",
       video: false,
       vote_average: 6.3,
-      vote_count: 15,
+      vote_count: 15
     },
     {
       adult: false,
@@ -122,7 +122,7 @@ const movies = {
       title: "해리 포터와 혼혈왕자",
       video: false,
       vote_average: 7.7,
-      vote_count: 18104,
+      vote_count: 18104
     },
     {
       adult: false,
@@ -139,7 +139,7 @@ const movies = {
       title: "람보르기니: 전설이 된 남자",
       video: false,
       vote_average: 6.3,
-      vote_count: 300,
+      vote_count: 300
     },
     {
       adult: false,
@@ -156,7 +156,7 @@ const movies = {
       title: "조이 라이드",
       video: false,
       vote_average: 6.6,
-      vote_count: 160,
+      vote_count: 160
     },
     {
       adult: false,
@@ -173,7 +173,7 @@ const movies = {
       title: "47시간: 샤크베이트",
       video: false,
       vote_average: 5.8,
-      vote_count: 261,
+      vote_count: 261
     },
     {
       adult: false,
@@ -190,7 +190,7 @@ const movies = {
       title: "스파이 코드명 포춘",
       video: false,
       vote_average: 6.6,
-      vote_count: 1031,
+      vote_count: 1031
     },
     {
       adult: false,
@@ -207,7 +207,7 @@ const movies = {
       title: "온 더 라인",
       video: false,
       vote_average: 6.1,
-      vote_count: 382,
+      vote_count: 382
     },
     {
       adult: false,
@@ -224,7 +224,7 @@ const movies = {
       title: "오즈의 마법사",
       video: false,
       vote_average: 7.6,
-      vote_count: 5105,
+      vote_count: 5105
     },
     {
       adult: false,
@@ -241,7 +241,7 @@ const movies = {
       title: "그래픽 디자이어",
       video: false,
       vote_average: 1,
-      vote_count: 1,
+      vote_count: 1
     },
     {
       adult: false,
@@ -258,7 +258,7 @@ const movies = {
       title: "일주일간 친구",
       video: false,
       vote_average: 5.7,
-      vote_count: 110,
+      vote_count: 110
     },
     {
       adult: false,
@@ -275,7 +275,7 @@ const movies = {
       title: "몬스터 패밀리 2",
       video: false,
       vote_average: 6.6,
-      vote_count: 63,
+      vote_count: 63
     },
     {
       adult: false,
@@ -292,7 +292,7 @@ const movies = {
       title: "마에스트로",
       video: false,
       vote_average: 5.7,
-      vote_count: 36,
+      vote_count: 36
     },
     {
       adult: false,
@@ -309,7 +309,7 @@ const movies = {
       title: "킬러의 레스토랑",
       video: false,
       vote_average: 5.6,
-      vote_count: 98,
+      vote_count: 98
     },
     {
       adult: false,
@@ -326,7 +326,7 @@ const movies = {
       title: "이노센트",
       video: false,
       vote_average: 7,
-      vote_count: 439,
+      vote_count: 439
     },
     {
       adult: false,
@@ -343,11 +343,11 @@ const movies = {
       title: "콘크리트 유토피아",
       video: false,
       vote_average: 8,
-      vote_count: 3,
-    },
+      vote_count: 3
+    }
   ],
   total_pages: 5,
-  total_results: 83,
+  total_results: 83
 };
 
 export default movies;

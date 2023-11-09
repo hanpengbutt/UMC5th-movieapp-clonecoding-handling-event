@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import PropTypes from "prop-types";
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 function MovieItemDetail({ display, title, overview }) {
   return (
@@ -13,11 +13,11 @@ function MovieItemDetail({ display, title, overview }) {
 MovieItemDetail.propTypes = {
   display: PropTypes.bool.isRequired,
   title: PropTypes.string.isRequired,
-  overview: PropTypes.string.isRequired,
+  overview: PropTypes.string.isRequired
 };
 
 const ItemDetail = styled.div`
-  display: ${(props) => (props.display ? "block" : "none")};
+  display: ${props => (props.display ? 'block' : 'none')};
   position: absolute;
   top: 0;
   left: 0;

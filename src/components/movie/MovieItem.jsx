@@ -28,7 +28,7 @@ MovieItem.propTypes = {
   voteAverage: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   overview: PropTypes.string.isRequired,
-  poster: PropTypes.string.isRequired,
+  poster: PropTypes.string.isRequired
 };
 
 const MovieItemWrapper = styled.div`

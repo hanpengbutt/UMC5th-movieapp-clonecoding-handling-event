@@ -21,7 +21,7 @@ class LoginControl extends React.Component {
 
     return (
       <LoginContainer>
-        <LoginBtn type="button" onClick={this.handleClick}>
+        <LoginBtn type='button' onClick={this.handleClick}>
           {isLoggedIn ? "로그아웃" : "로그인"}
         </LoginBtn>
         <LoginGreet>
